@@ -79,6 +79,7 @@ vmCvar_t g_restarted;
 vmCvar_t g_logfile;
 vmCvar_t g_logfileSync;
 vmCvar_t g_blood;
+vmCvar_t g_shotgunGibFix;
 vmCvar_t g_podiumDist;
 vmCvar_t g_podiumDrop;
 vmCvar_t g_allowVote;
@@ -261,6 +262,7 @@ static cvarTable_t gameCvarTable[] = {
 	{ &g_motd, "g_motd", "", 0, 0, qfalse },
 	{ &g_motdfile, "g_motdfile", "motd.cfg", 0, 0, qfalse },
 	{ &g_blood, "com_blood", "1", 0, 0, qfalse },
+	{ &g_shotgunGibFix, "g_shotgunGibFix", "1", CVAR_ARCHIVE, 0, qfalse },
 
 	{ &g_podiumDist, "g_podiumDist", "80", 0, 0, qfalse },
 	{ &g_podiumDrop, "g_podiumDrop", "70", 0, 0, qfalse },
